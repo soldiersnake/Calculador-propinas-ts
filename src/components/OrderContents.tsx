@@ -17,7 +17,7 @@ export default function OrderContents({order, removeItem} : OrderContentsProps) 
                  : (order.map( item => (
                     <div className='flex justify-between items-center border-t border-gray-200 py-4 last-of-type:border-b' key={item.id}>
                         <div className=''>
-                            <p className='text-lg'>{item.name} - {formatCurrency(item.price)} - SubTotal: </p>
+                            <p className='text-lg'>{item.name} - {formatCurrency(item.price)}</p>
                             <p className='font-black'>
                                 Cantidad: {item.quantity} - {formatCurrency(item.quantity*item.price)} 
                             </p>

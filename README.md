@@ -1,5 +1,5 @@
 # React + TypeScript + Vite
-## Url Protect: [url: calculador propinas](https://calculadorpropinas-ts-mm.netlify.app)
+## Url Protect: [calculador propinas](https://calculadorpropinas-ts-mm.netlify.app)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
